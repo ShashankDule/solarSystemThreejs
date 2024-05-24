@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+  
+}
+canvas {
+    display: block;
+
+
+}
+.col-lg-6.right {
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px gray;
+    width: 500px;
+    height: 500px; 
+    margin-left: 50PX;
+    padding: 0px;
+}
+.col-lg-6.left {
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px gray;
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+}
+#root {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: crosshair;
+}
+.label {
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 2px;
+    background: rgba( 0, 0, 0, .6 ); 
+        margin: 1px 0px -97px 0px;
+ 
+}
+.label.planets {
+    display: inline;
+    padding: .2em 1.6em .3em;
+    font-size: 20px !important;
+    font-weight: normal !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Green */
+.success {
+    color: green;
+}
+
+.success:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Blue */
+.info {
+    color: dodgerblue;
+}
+
+.info:hover {
+    background: #2196F3;
+    color: white;
+}
+
+/* Orange */
+.warning {
+    color: orange;
+}
+
+.warning:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Red */
+.danger {
+    color: red;
+}
+
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+
+/* Gray */
+.default {
+    color: black;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+.cust.menu {
+    z-index: 999;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 15px 0;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+label.lblname {
+    color: black;
+}

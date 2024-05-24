@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./resources/css/style.css">
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+ 
+    
+</head>
+<body>
+  <div class="cust menu"> 
+    <label for="nameInput" class="lblname">Enter Time Scale for Solar System :</label>
+    <input type="text"  id="TimeInput" placeholder="Enter Time">
+    <button name="button"   type="button"   id="speed">Enter</button>   <br>  
+    <button name="button"   type="button"   id="hello">Pause</button>
+    <button name="button"   type="button"   id="reset">Reset</button>
+  </div>
+  <div id="output"></div> 
+    <!-- <div style="padding-top: 150px;"></div> -->
+     <!-- <div class="container">
+          <div class="row"> 
+            <div class="col-lg-3 left">
+             <div id="leftBox"></div> 
+           </div>
+           <div class="col-lg-9 right">
+             <div id="output"></div> 
+           </div>
+         </div> 
+    </div>  -->
+     
+      
+     
+    <!-- <div id="root"></div> -->
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "../build/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+
+
+    <script type="module" src="./main.js"></script>
+    
+</body>
+</html>
